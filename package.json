@@ -17,9 +17,9 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.3",
-    "ts-node": "^10.9.1",
     "ts-jest": "^29.1.1",
     "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "tsconfig-paths-jest": "^0.0.1",
     "typescript": "^5.2.2"
@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/Nasfame/js101",
   "dependencies": {
-
+    "@helia/dag-json": "^1.0.2",
+    "helia": "^2.0.3"
   }
 }
