@@ -1,5 +1,6 @@
 import { createHelia } from 'helia';
 import { dagJson } from '@helia/dag-json'
+import { buffers } from '@helia/buffers';
 
 const cid = "QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ"
 async function main(){
@@ -7,17 +8,19 @@ async function main(){
     const helia = await createHelia();
     const d = dagJson(helia)
 
-    const object1 = { hello: 'world' }
-    const myImmutableAddress1 = await d.add(object1)
+    const b = buffers(helia);
 
-    const object2 = { link: myImmutableAddress1 }
-    const myImmutableAddress2 = await d.add(object2)
 
-    const retrievedObject = await d.get(myImmutableAddress2)
-    console.log(retrievedObject)
-// { link: CID(baguqeerasor...) }
+    const filePath = './downloadedFile';
 
-    // console.log(await d.get(retrievedObject))
+    // Download the file
+    const data = await b.get(cid);
+
+    // Write the downloaded data to a file
+    await fs.writeFile(filePath, data);
+
+    console.log('File downloaded successfully');
+}
 }
 
 

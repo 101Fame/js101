@@ -7,7 +7,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ipfs": "ts-node retrieve-from-ipfs/ipfs.ts"
   },
   "keywords": [],
   "devDependencies": {
@@ -39,6 +40,8 @@
   "homepage": "https://github.com/Nasfame/js101",
   "dependencies": {
     "@helia/dag-json": "^1.0.2",
-    "helia": "^2.0.3"
+    "helia": "^2.0.3",
+    "ipfs-core": "^0.18.1",
+    "node-fs": "^0.1.7"
   }
 }
