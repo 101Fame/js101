@@ -5,7 +5,6 @@
   "author": "laciferin@gmail.com",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ipfs": "ts-node retrieve-from-ipfs/ipfs.ts"
