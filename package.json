@@ -11,6 +11,12 @@
   },
   "keywords": [],
   "devDependencies": {
+    "concurrently": "^8.2.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
     "ts-node": "^10.9.1"
   },
   "engines": {
@@ -25,5 +31,12 @@
   "bugs": {
     "url": "https://github.com/Nasfame/js101/issues"
   },
-  "homepage": "https://github.com/Nasfame/js101"
+  "homepage": "https://github.com/Nasfame/js101",
+  "dependencies": {
+    "ts-jest": "^29.1.1",
+    "ts-loader": "^9.4.4",
+    "tsconfig-paths": "^4.2.0",
+    "tsconfig-paths-jest": "^0.0.1",
+    "typescript": "^5.2.2"
+  }
 }
