@@ -1,0 +1,29 @@
+{
+  "name": "js101",
+  "version": "0.1.0",
+  "description": "Playground to test js/ts scripts",
+  "author": "laciferin@gmail.com",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0",
+    "pnpm": ">=8.6.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nasfame/js101"
+  },
+  "bugs": {
+    "url": "https://github.com/Nasfame/js101/issues"
+  },
+  "homepage": "https://github.com/Nasfame/js101"
+}
