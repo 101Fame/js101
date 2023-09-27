@@ -10,7 +10,6 @@ async function main() {
     for await (const chunk of stream) {
         data += chunk.toString()
     }
-
     await fs.writeFile('./downloadedFile', data);  // Replace './downloadedFile' with your file path
 }
 
